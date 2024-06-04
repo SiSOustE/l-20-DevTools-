@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formTest_04-0142</title>
+</head>
+<body>
+  
+</body>
+</html><body>
+  <form action="#" name="MyForm">
+    <fieldset>
+      <legend>Основная информация</legend>
+      <div>
+        <label>ФИО
+          <input type="text" placeholder="Введите имя" minlength="2">
+        </label>
+      </div>
+      <div>
+        <h3>Пол</h3>
+        <label>
+          <input type="radio" value="female" name="gender"/>
+          Женский
+        </label>
+        <label>
+          <input type="radio" value="male" name="gender"/>
+          Мужской
+        </label>
+      </div><br>
+      <div>
+        <input type="password" placeholder="Пароль">
+      </div>
+      <div>
+        <h3>Страна</h3>
+        <label for="country"></label>
+        <select name="country" id="country" form="carform">
+          <option value="rus">RUS</option>
+          <option value="cn">CN</option>
+          <option value="gbr">GBR</option>
+          <option value="deu">DEU</option>
+        </select>
+      </div>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Дополнительная информация</legend>
+      <div>
+        <h3>Выберите</h3>
+        <label>
+          <input type="checkbox" name="food" />
+          Мороженое
+        </label>
+        <label>
+          <input type="checkbox" name="food" />
+          Клубника
+        </label>
+        <label>
+          <input type="checkbox" name="food" />
+          Лимон
+        </label>
+      </div><br />
+      <div>
+        <textarea placeholder="Что Вы любите - напишите..." cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+    <br />
+    <input type="submit" value="Отправить">
+  </form>
+</body>
