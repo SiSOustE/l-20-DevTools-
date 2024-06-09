@@ -5,21 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>formTest_04-0142</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-</body>
-</html><body>
-  <form action="#" name="MyForm">
-    <fieldset>
-      <legend>Основная информация</legend>
-      <div>
-        <label>ФИО
-          <input type="text" placeholder="Введите имя" minlength="2">
-        </label>
-      </div>
-      <div>
-        <h3>Пол</h3>
+<!-- <header Шапка сайта</header> -->
+<main>
+  <h2>Формы HTML / IT Public 503</h2>
+    <form class="form1" action="#" name="Litvinova" method="get">
+      <fieldset>
+        <legend>Основная информация</legend>
+        <div class="fio">
+          <label>ФИО
+            <input type="text" placeholder="Введите имя" maxlength="50">
+          </label>
+        </div>
+        <div>
+          <label >e-mail: <input type="email" placeholder="ваш@хост@зона">
+          </label>
+        </div>
+        <h4>Пол</h4>
         <label>
           <input type="radio" value="female" name="gender"/>
           Женский
@@ -28,23 +32,28 @@
           <input type="radio" value="male" name="gender"/>
           Мужской
         </label>
-      </div><br>
-      <div>
-        <input type="password" placeholder="Пароль">
+        
+        <div class="age">
+          <h4>Возраст</h4>
+             <input type="number" class="number"></div>
+        </div>
       </div>
-      <div>
-        <h3>Страна</h3>
+      </div><br>
+      <div class="country">
+        <h4>Страна</h4>
         <label for="country"></label>
-        <select name="country" id="country" form="carform">
-          <option value="rus">RUS</option>
-          <option value="cn">CN</option>
-          <option value="gbr">GBR</option>
+        <select name="country" id="country" form="country">
+          <option value="chn">CHN</option>
           <option value="deu">DEU</option>
+          <option value="gbr">GBR</option>
+          <option selected value="rus">RUS</option>
+          <option value="usa">USA</option>
         </select>
       </div>
+      
     </fieldset>
     <br />
-    <fieldset>
+    <fieldset class = addInfo>
       <legend>Дополнительная информация</legend>
       <div>
         <h3>Выберите</h3>
@@ -66,6 +75,15 @@
       </div>
     </fieldset>
     <br />
-    <input type="submit" value="Отправить">
+    <div>
+      <input type="submit" value="Отправить">
+      <input type="reset" value="Очистить">
+    </div>
+
   </form>
+
+</main>
+
+<footer></footer>
+
 </body>

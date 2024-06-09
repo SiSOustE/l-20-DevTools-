@@ -1,0 +1,38 @@
+fieldset {
+  border-radius: 3%;
+  border-color: steelblue;
+  background: #f5faff;
+}
+form {
+  /* background-color: #eeeeff;*/
+  width: 25%;
+  color: #113355;
+}
+input {
+  margin-bottom: .5rem;
+}
+.country{
+  display: flex;
+  align-items: baseline;
+  /* margin-right: 5.5rem; */
+}
+.age {width: 15px;}
+.number {
+  width: 2rem;
+  /* height: 1.5rem; */
+  margin-left: .5rem;
+
+}
+div.age {
+  display: flex;
+  align-items: baseline;
+  /* align-items: center; */
+}
+h4 {
+  margin-bottom: .5rem;
+  color: #113355;
+}
+h2 {
+  color: #113355;
+
+}
