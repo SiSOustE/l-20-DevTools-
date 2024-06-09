@@ -1,0 +1,38 @@
+1. Добавь на страницу favicon и title.
+Чтобы добавить favicon воспользуйтесь следующим кодом:
+<link rel="shortcut icon" href="ссылка на фавикон" type="image/x-icon"/>
+2. Посмотри, какие в chrome есть полезные для разработки плагины и подключи понравившиеся.
+3. Составь план тестирования формы.
+4. Протестируй верстку.
+-----------------
+Кроссбраузер
+
+Crome Dev Tools
+Elements / html
+css
+	Styles	Computed
+
+Font / размеры / отступы / color / границы / заливка / opacity / эффекты / hover / activate
+расстояния / адаптивность / валидация
+<img src alt>
+
+W3C стандарты / валидность / Markup Validation Service
+Stylelintrc	
+
+valid
+	e-mail / number`
+required
+minlength
+
+Доступность / навигация/ клав без мыши
+
+обследование  html
+размещение (display: flex / ...
+
+форматирование кода html / отступы, уровни
+
+Структура веб-страницы:
+<HTML> <HEAD> <META> <TITLE> <BODY> <HEADER> <MAIN> <FOOTER>
+	
+	
+Figma
