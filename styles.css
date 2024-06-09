@@ -13,6 +13,7 @@ body {
 
 header {
   background-color: var(--bgColor-1);
+  border-bottom: 5px solid white;
 }
 
 div.img {
@@ -22,11 +23,10 @@ div.img {
 }
 
 form {
-  background-color: #eef7ee;
+  background-color: var(--bgColor-2);
   width: 25%;
   padding: 2rem;
   border: .1rem solid #abc;
-  /* box-shadow: 6px 4px 2px 1px rgba(0, 0, 255, .1); */
   border-radius: 3%;
 }
 
