@@ -9,22 +9,31 @@
   --bgColor-4: #8b137d;
 }
 
-body{
-/* margin: 0;   */
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  /* margin: 0;   */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-h3 {
-  font-size: 1.33rem;
-  color: var(--fontColor-1);
-  margin: .35rem;
+  /* 360 x 740 (Samsung Galaxy S8+ */
+  h2 {
+    color: #57b;
+    margin: 1rem;
+    font-size: 1.7rem;
+    font-style: italic;
+  }
+
+  h3 {
+    font-size: 1.33rem;
+    color: var(--fontColor-1);
+    margin: .35rem;
+  }
+
+  h4 {
+    margin-bottom: .35rem;
+    color: var(--fontColor-1);
+  }
+
 }
 
-h4 {
-  margin-bottom: .35rem;
-  color: var(--fontColor-1);
-}
-
-}
 .cntTotal {
   display: flex;
   flex-direction: column;
@@ -43,12 +52,12 @@ h4 {
 
 .cntH1 {
   width: 50%;
-  background: honeydew;
+  background: whitesmoke;
 }
 
 .cntFig-1 {
   width: 25%;
-  background-color: #fdf0ff;
+  background-color: whitesmoke;
 }
 
 .separatorBlock {
@@ -57,16 +66,19 @@ h4 {
 }
 
 form {
-  background-color: #d8def0;
-margin: .5em;
+  background-color: #d8def3;
+  margin: .5em;
+  /* border-color: var(--fontColor-1); */
 }
 
 fieldset {
   background-color: #e9f0f9;
   margin: .5rem;
+  border-color: white;
 }
 
-.age, .country {
+.age,
+.country {
   display: flex;
   align-items: baseline;
 }
@@ -75,18 +87,37 @@ fieldset {
   width: 2.5em;
   margin-left: .5rem;
 }
+
 select {
   margin-left: .5rem;
-width: 4em;
+  width: 4em;
+}
+
+.addInf {
+  background-color: whitesmoke;
+  border-color: white;
 }
 
 textarea {
   border: .1rem solid #abc;
-  width: 198%;
+  width: 98%;
   height: 7em;
   background-color: white;
   margin-top: calc(5*var(--margin-1));
 }
 
-.formFooter {display: flex;
-  padding: .5em;}
+.formFooter {
+  display: flex;
+  padding: .5em;
+}
+
+/* -------- 820 x 1180 (iPad Air) ----------- */
+
+@media screen and (min-width: 820px) {
+  h2 {
+    color: #b75;
+    margin: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+  }
+}
