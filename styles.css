@@ -39,11 +39,14 @@ body {
   flex-direction: column;
   height: 98vh;
   background-color: #c8d0e0;
+  border-radius: 1.5vh;
+  margin-bottom: 1rem;
 }
 
 .cntHead {
   display: flex;
   box-sizing: border-box;
+  margin: 1vh .5vh .25vh;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -66,8 +69,9 @@ body {
 }
 
 form {
-  background-color: #d8def3;
-  margin: .5em;
+  background-color: #fff;
+  margin: 1vw;
+  padding: .5vh .5vh;
   /* border-color: var(--fontColor-1); */
 }
 
@@ -100,8 +104,8 @@ select {
 
 textarea {
   border: .1rem solid #abc;
-  width: 98%;
-  height: 7em;
+  width: 40%;
+  height: 10vh;
   background-color: white;
   margin-top: calc(5*var(--margin-1));
 }
